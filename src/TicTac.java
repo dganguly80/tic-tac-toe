@@ -6,10 +6,6 @@ import static java.lang.System.*;
 public class TicTac {
 
 
-   /* public void finalResult(String winner){
-        out.println("Winner is: " +  winner);
-    } */
-
     public static int[] checkWinner(String[] updatedGrid, int playerNumber){
         String playerChar;
         int[] playerMovements={-1, -1, -1, -1, -1, -1, -1, -1, -1};
